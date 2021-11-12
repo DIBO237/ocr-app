@@ -1,18 +1,21 @@
 {
-  "name": "ocr",
+  "name": "new-ocr",
   "version": "1.0.0",
-  "description": "hello this is an OCR APP",
-  "main": "index.js",
+  "description": "",
+  "main": "app.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node app.js",
+    "devstart": "nodemon app.js"
   },
   "keywords": [],
-  "author": "dibya",
+  "author": "",
   "license": "ISC",
   "dependencies": {
+    "@google-cloud/vision": "^2.4.0",
     "ejs": "^3.1.6",
-    "express": "^4.17.1",
-    "multer": "^1.4.3",
-    "pdf-parse": "^1.1.1"
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
